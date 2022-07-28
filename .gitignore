@@ -2,7 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.csv
+*.pq
+*.pkl
+*.gz
+*.zip
+*.tar.gz
+*.tsv
+*/data/
 # C extensions
 *.so
 
