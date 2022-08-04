@@ -2,7 +2,7 @@ Vamos a empezar con un ejemplo simple de cómo funcionan estos tipos de ejercici
 
 ## ¿Cuál es la metodología de resolución'
 
-Algunos ejercicios pueden tener un  `Makefile`. que esto permite chequear si un challenge es correcto o no donde los test ya fueron elaborados por Fede y Arthur. Para correr el script en la terminar tenes que usar `cd` hasta el folder y correr:
+Algunos ejercicios pueden tener un  `Makefile`. que esto permite chequear si un challenge es correcto o no donde los test ya fueron elaborados por Fede y Javi. Para correr el script en la terminar tenes que usar `cd` hasta el folder y correr:
 
 ``` bash
 make
