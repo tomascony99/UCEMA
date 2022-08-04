@@ -1,6 +1,5 @@
 
 def calculate_mean(arr):
-    ''' calcula la media de una array sin usar librerias'''
-    return sum(arr)/len(arr)
+    ''' Calcula la media de una array sin usar librerias'''
+    return
 
-print(calculate_mean([23, 44, 12, 3]))
