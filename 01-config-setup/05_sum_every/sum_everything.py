@@ -1,6 +1,7 @@
-"""Elabora una función que sume todos los números que les pases. Pueden ser cualquier número de argumentos."""
-def sum_every():
-    #code here
+def sum_every(*args):
+    total = 0
+    for one_number in args:
+        total += one_number
     return total
 
 

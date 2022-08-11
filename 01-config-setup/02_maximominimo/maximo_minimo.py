@@ -4,6 +4,8 @@
 
 def mediana(arr):
     # Write your code here
+    minimo = sum(arr) - max(arr)
+    maximo = sum(arr) - min(arr)
     return [minimo, maximo]
 
 

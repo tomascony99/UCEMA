@@ -3,10 +3,12 @@
 import os
 
 def app_on():
-    """Devolve el mensaje correcto"""
+    """returns the right message"""
     # $CHALLENGIFY_BEGIN
-    # pista env = os.getenv('')
-
+    env = os.getenv('ENV_of_FLASK_APP')
+    if env:
+        return f"Iniciando en modo de {env}..."
+    return "Iniciando en modo vacio..."
     # $CHALLENGIFY_END
 
 if __name__ == "__main__":
